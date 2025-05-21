@@ -50,9 +50,9 @@ Example thresholds used:
 
 ## 📂 Project Files
 
-- [lambda.py](lambda.py) — AWS Lambda function code that fetches news from the News API and pushes data to Kafka on EC2.
-- [glue.py](glue.py) — AWS Glue script that reads news data from Kafka, performs sentiment analysis, and writes results to S3.
-- [code.sql](code.sql) — SQL script used to create tables and load data into Snowflake from S3.
+- [my_lambda.py](my_lambda.py) — AWS Lambda function code that fetches news from the News API and pushes data to Kafka on EC2.
+- [my_glue.py](my_glue.py) — AWS Glue script that reads news data from Kafka, performs sentiment analysis, and writes results to S3.
+- [my_snowflake.sql](my_snowflake.sql) — SQL script used to create tables and load data into Snowflake from S3.
 
 ## ⚙️ Configuration Setup
 
@@ -104,7 +104,7 @@ Before running the project, make sure to configure the following:
 
 - ## Architecture Diagram
 
-![Architecture](architecture.jpeg)
+![Architecture](news-sentiment.jpeg)
 
 ## 🧾 Conclusion
 
