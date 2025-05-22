@@ -106,6 +106,12 @@ Before running the project, make sure to configure the following:
 
 ![Architecture](news-sentiment.jpeg)
 
+## 📊 Power BI Visualization
+
+This project includes a Power BI report that visualizes the key insights from the dataset. You can explore the Power BI file to gain a better understanding of the trends and patterns.
+
+🔗 [Download Power BI Report (.pbix)](https://github.com/sruthygop/news-sentiment-analysis/raw/main/news_sentiment_analysis.pbix)
+
 ## 🧾 Conclusion
 
 This project showcases an automated and scalable data pipeline for news sentiment analysis using AWS services and Snowflake. It efficiently collects news data from the News API, streams it through Kafka hosted on EC2, processes it with AWS Glue, and stores the results in S3 and Snowflake. The sentiment scores provide valuable insights visualized in Power BI. Automation with Lambda triggers and scheduled Snowflake tasks ensures continuous and timely data updates. This setup highlights how to build an integrated, real-time analytics workflow in the cloud.     
